@@ -34,7 +34,6 @@ SinglePHP遵循PSR-2命名规范和PSR-4自动加载规范，并且注意如下�
 函数的命名使用小写字母和下划线（小写字母开头）的方式，例如 get_client_ip；
 方法的命名使用驼峰法（首字母小写），例如 getUserName；
 属性的命名使用驼峰法（首字母小写），例如 tableName、instance；
-以双下划线“__”打头的函数或方法作为魔术方法，例如 __call 和 __autoload；
 常量和配置
 常量以大写字母和下划线命名，例如 APP_PATH和 THINK_PATH；
 配置参数以小写字母和下划线命名，例如 url_route_on 和url_convert；
